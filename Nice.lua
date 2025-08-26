@@ -8,7 +8,7 @@ local Camera = workspace.CurrentCamera
 local VirtualInputManager = game:GetService("VirtualInputManager")
 
 -- Load Kavo UI Library (free, reliable)
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 -- Create the main GUI window
 local Window = Library.CreateLib("Blade Ball Elite GUI","Serpent")
